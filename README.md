@@ -1,1 +1,1 @@
-# AdventOfCode2025
+# Code solutions for Advent of Code 2025 implemented in C++
