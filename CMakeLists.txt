@@ -4,7 +4,7 @@ project(AoC2025)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(DAYS day01 day02 day03 day04 day05 day06 day07 day08)
+set(DAYS day01 day02 day03 day04 day05 day06 day07 day08 day09)
 
 foreach(DAY IN LISTS DAYS)
 	add_executable(${DAY} ${DAY}/main.cpp)
@@ -22,8 +22,3 @@ foreach(DAY IN LISTS DAYS)
             ${OUTPUT_DIR}/input.txt
     )
 endforeach()
-
-
-#add_executable(day01 Day1/main.cpp)
-
-#configure_file(Day1/input.txt input)
