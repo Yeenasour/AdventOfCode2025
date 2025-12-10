@@ -4,7 +4,7 @@ project(AoC2025)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(DAYS day01 day02 day03 day04 day05 day06 day07 day08 day09)
+set(DAYS day01 day02 day03 day04 day05 day06 day07 day08 day09 day10)
 
 foreach(DAY IN LISTS DAYS)
 	add_executable(${DAY} ${DAY}/main.cpp)
